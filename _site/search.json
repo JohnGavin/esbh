@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n(wedding reception hotel, space, your logistics PhD friend in SA )[https://drive.google.com/file/d/1FwSJ47vywXrm0tOqInWjoZFzYz9kAyOA/view?usp=sharing_eil&ts=5fd0cd8d]\n\n\n\n",
-      "last_modified": "2020-12-09T19:20:40+00:00"
+      "contents": "\nwedding reception hotel, space, your logistics PhD friend in SA.\n\n\n\n",
+      "last_modified": "2020-12-11T17:57:57+00:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-09T19:20:41+00:00"
+      "last_modified": "2020-12-11T17:57:59+00:00"
     }
   ],
   "collections": ["posts/posts.json"]
