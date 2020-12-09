@@ -6,9 +6,37 @@ author:
   - name: jg
     #url: https://example.com/norajones
 date: 12-09-2020
+listing: posts
+  # posts: 
+  # https://rstudio.github.io/distill/blog.html#subscriptions
+  # subscribe: _subscribe.html
+  # https://rstudio.github.io/distill/blog.html#custom-listings
+  #   - 2016-11-08-sharpe-ratio
+  #   - 2017-11-09-visualizing-asset-returns 
+  #   - 2017-09-13-asset-volatility 
+# navbar:
+# display a link to the source code for your blog on the navigation bar, 
+#     source_url: https://github.com/rstudio/distill
+#   logo:
+#     image: images/logo.png
+#     href: https://www.rstudio.com
+#   search: false
 output:
   distill::distill_article:
     self_contained: false
+# Categories are listed in the right-hand sidebar and are also displayed as metadata for each post.
+# categories:
+#   - portfolios
+#   - dygraphs
+# disable both category displays as well as authors display using collection properties defined in _site.yml.
+# collections:
+#   posts:
+#     categories: false
+#     categories_metadata: false
+#     authors_metadata: false
+#     disqus: reproducible-finance-with-r
+#     share: [twitter, linkedin]
+draft: true
 ---
 ```{r, eval = FALSE, echo = FALSE, results='hide'}
 library(distill)
@@ -33,6 +61,11 @@ usethis::use_github() # this works if you have already configured a GitHub Perso
 #   This often indicates a problem with git2r and the credentials.
 #   Try this in the shell, to complete the set up:
 # git push --set-upstream origin master
+
+
+library(rmarkdown)
+render_site()
+
 ```
 
 
