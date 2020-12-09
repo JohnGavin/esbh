@@ -81,7 +81,7 @@ options(usethis.protocol = "ssh")
 usethis::use_github() # this works if you have already configured a GitHub Personal Access Token
 
 git checkout -b 12-09_ubp_todos
-git push -u origin <branch>
+git push -u origin 12-09_ubp_todos
 
 
 ```
