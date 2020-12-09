@@ -21,6 +21,10 @@ create_post(
   edit = interactive()
 )
 usethis::use_git() 
+# in a user- or project-level startup file, '.Rprofile'
+#  Call `usethis::edit_r_profile()` to open it for editing.
+options(usethis.protocol = "ssh")
+
 usethis::use_github() # this works if you have already configured a GitHub Personal Access Token
 
 ```
