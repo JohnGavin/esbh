@@ -1,8 +1,8 @@
 name: "esbh"
-title: "ESBH Site"
+title: "esbh blog"
 description: |
-  ESBH Site
-output_dir: "_site"
+  esbh blog
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
