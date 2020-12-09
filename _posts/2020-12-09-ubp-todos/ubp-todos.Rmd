@@ -21,6 +21,8 @@ create_post(
   edit = interactive()
 )
 usethis::use_git() 
+usethis::use_github() # this works if you have already configured a GitHub Personal Access Token
+
 ```
 
 
