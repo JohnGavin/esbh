@@ -55,6 +55,7 @@ create_post(
   edit = interactive()
 )
 # git remote rm origin
+# new GitHub repo will be created via the GitHub API, therefore you must make a GitHub personal access token (PAT) available. You can either provide this directly via the auth_token argument or store it for retrieval with github_token().
 usethis::use_github() # this works if you have already configured a GitHub Personal Access Token
 
 #  Failed to push and set tracking branch.
@@ -62,6 +63,11 @@ usethis::use_github() # this works if you have already configured a GitHub Perso
 #   Try this in the shell, to complete the set up:
 # git push --set-upstream origin master
 
+# https://stackoverflow.com/questions/32238616/git-push-fatal-origin-does-not-appear-to-be-a-git-repository-fatal-could-n
+git remote -v
+git remote add origin git@github.com:JohnGavin/esbh.git
+
+git push -u origin master
 
 library(rmarkdown)
 render_site()
